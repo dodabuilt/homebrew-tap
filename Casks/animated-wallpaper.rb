@@ -1,6 +1,6 @@
 cask "animated-wallpaper" do
-  version "1.0.6"
-  sha256 "f9d4604ac2e199e4bd18966338c515eddf9f68069209ee18be43798ebe1d1789"
+  version "1.0.7"
+  sha256 "62fc8c2e7edd5dca4afa5751af22cc34c4a8ea398f45e2b1639f0cf8761d757d"
 
   url "https://github.com/dodabuilt/AnimatedWallpaper/releases/download/v#{version}/AnimatedWallpaper-Installer.pkg"
   name "Animated Wallpaper"
