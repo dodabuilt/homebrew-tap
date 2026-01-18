@@ -1,6 +1,6 @@
 cask "animated-wallpaper" do
-  version "1.0.9"
-  sha256 "6ee48170f507c8e33e8671e12867a4e494105fb1f2d16aa96a2d944c8822d1a8"
+  version "1.0.10"
+  sha256 "8835a07bc701a9d42b3620e05193184ff88a26f8bdf56602c0c983e05ff64263"
 
   url "https://github.com/dodabuilt/AnimatedWallpaper/releases/download/v#{version}/AnimatedWallpaper-Installer.pkg"
   name "Animated Wallpaper"
@@ -17,9 +17,4 @@ cask "animated-wallpaper" do
     "~/Library/Preferences/com.dash.animatedwallpaper.plist",
     "~/Library/Caches/com.dash.animatedwallpaper",
   ]
-
-  caveats <<~EOS
-    After installation, open Animated Wallpaper from your Applications folder.
-    Look for the icon in your menu bar to get started!
-  EOS
 end
