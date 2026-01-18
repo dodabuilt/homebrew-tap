@@ -1,6 +1,6 @@
 cask "animated-wallpaper" do
-  version "1.0.1"
-  sha256 "73b8d6ea16dea5543c1eb050642234c77dbe3e334c9cb003f26973e676152ec7"
+  version "1.0.3"
+  sha256 "a69e24cde099f088bffe51d33773ca6459a6512f77ed2557971b7801292b4921"
 
   url "https://github.com/dodabuilt/AnimatedWallpaper/releases/download/v#{version}/AnimatedWallpaper-Installer.pkg"
   name "Animated Wallpaper"
@@ -9,7 +9,7 @@ cask "animated-wallpaper" do
 
   pkg "AnimatedWallpaper-Installer.pkg"
 
-  uninstall pkgutil: "com.davidmedvedev.animatedwallpaper",
+  uninstall pkgutil: "com.dash.animatedwallpaper",
             delete:  "/Applications/AnimatedWallpaper.app"
 
   zap trash: [
